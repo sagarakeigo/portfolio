@@ -1,0 +1,93 @@
+.skillbar {
+    position: relative;
+    display: inline-block;
+    margin: 15px auto;
+    background: #eee;
+    height: 40px;
+    border-radius: 3px;
+    width: 100%;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12) inset;
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.skillbar-bar {
+    height: 40px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.skillbar-html .skillbar-title {
+    background: #d35400;
+}
+
+.skillbar-html .skillbar-bar {
+    background: #e67e22;
+}
+
+.skillbar-css .skillbar-title {
+    background: #0C73B8;
+}
+
+.skillbar-css .skillbar-bar {
+    background: #268DD2;
+}
+
+.skillbar-js .skillbar-title {
+    background: #E5A228;
+}
+
+.skillbar-js .skillbar-bar {
+    background: #FEBB42;
+}
+
+.skillbar-php .skillbar-title {
+    background: #873bce;
+}
+
+.skillbar-php .skillbar-bar {
+    background: #a342fe;
+}
+
+.skillbar-wordpress .skillbar-title {
+    background: #4ddbc8;
+}
+
+.skillbar-wordpress .skillbar-bar {
+    background: #56ffe8;
+}
+
+.skillbar-movie .skillbar-title {
+    background: #c9323a;
+}
+
+.skillbar-movie .skillbar-bar {
+    background: #fa3740;
+}
